@@ -49,7 +49,7 @@ public KeyPanel(){ // 패널 생성자
     
      if(key == KeyEvent.VK_KP_LEFT || key == KeyEvent.VK_LEFT){ 
     	char a=l.charAt(0);
-    	l=l.substring(0, 0) + l.substring(0 + 1);
+    	l= l.substring(1);
     	l=l+a;
     	
     
